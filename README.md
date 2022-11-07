@@ -13,7 +13,7 @@ Discord_Token: discord bot otken.
 relys: requests, sys, datetime, time, json. 
 
 reads config.json as config - must be in same dir. 
-checks public ip every 200 seconds, updates dns record when needed. 
+checks public ip every 200 seconds, updates dns record when needed.  
 while true dead loop. 
 
 # discord_bot.py:
