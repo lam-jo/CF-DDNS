@@ -1,22 +1,22 @@
-#How to use:
+# How to use:
 download all the files in the same dir, fill in the config,
 make sure relied packages are installed
 works with only one domain
 
-#config.json:
+# config.json:
 token: cloudflare api token
 domain: SLD domain
 name: subdomain name without SLD domain, if no, leave blank.
 Discord_Token: discord bot otken
 
-#Demo.py:
+# Demo.py:
 relys: requests, sys, datetime, time, json
 
 reads config.json as config - must be in same dir
 checks public ip every 200 seconds, updates dns record when needed
 while true dead loop
 
-#discord_bot.py:
+# discord_bot.py:
 
 !check:
 returns current public ip and current dns record
