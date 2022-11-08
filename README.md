@@ -5,7 +5,7 @@ works with only one domain.
 
 # config.json:
 token: cloudflare api token.  
-domain: SLD domain. 
+domain: SLD domain.  
 name: subdomain name without SLD domain, if no, leave blank.  
 Discord_Token: discord bot otken. 
 
