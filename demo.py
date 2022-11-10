@@ -98,14 +98,16 @@ while 1:
             i-=1
     else:
         print("ipv4 hasn't changed!")
-        i=60
+        i=200
         while(i>0):
-            if(i!=60):
-                print('\b\b', end = '', flush = True)
-            if(i>9):
+            if(i!=200):
+                print('\b\b\b', end = '', flush = True)
+            if(i>99):
                 print(i, end = '', flush = True)
-            else:
+            elif(i>8):
                 print(i, end = ' ', flush = True)
+            else:
+                print(i, end = '  ', flush = True)
             time.sleep(1)
             i-=1
         print('\r', end = '', flush = True)
