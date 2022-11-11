@@ -94,8 +94,10 @@ async def on_ready():
 
 @bot.command()
 async def clear(ctx):
+    deleting_messages = []
     async for message in ctx.message.channel.history():
-        await message.delete()
+        deleting_messages.append(message)
+    await ctx.message.channel.delete_messages(deleting_messages)
 
 
 bot.run(TOKEN)
