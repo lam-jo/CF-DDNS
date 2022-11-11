@@ -17,6 +17,8 @@ checks public ip every 200 seconds, updates dns record when needed.
 while true dead loop. 
 
 # discord_bot.py:
+uses config.json as well as demo.py. 
+Hears messages from every channel, so don't put the bot in public channels! Keep you bot secret!  
 
 !check:
 returns current public ip and current dns record. 
@@ -29,5 +31,4 @@ updates dns record regardless of if the ip has changed.
 
 !clear:  
 clears all messages in the channel, be careful!  
-uses config.json as well as demo.py. 
-Hears messages from every channel, so don't put the bot in public channels! Keep you bot secret!  
+
