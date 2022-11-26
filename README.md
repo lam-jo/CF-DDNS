@@ -2,7 +2,7 @@
 download all the files in the same dir, fill in the config,  
 make sure relied packages are installed.  
 works with only one domain.  
-
+Install requests, json, datetime, time first.  
 # config.json:
 token: cloudflare api token.  
 domain: SLD domain.  
